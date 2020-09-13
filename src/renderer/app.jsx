@@ -8,16 +8,16 @@ import Room from "./Room";
 
 import firebase from "firebase/firebase-browser";
 
-// Firebase 초기화하기
+// Firebase 초기화하기 // notion에서 참고
 const config = {
-  apiKey: "AIzaSyDpCU_tsyMRHBpgyQFfuElxPCagRXfKHQg",
+  apiKey: "XXXXXXXXXXXXXXXXXXXXXX",
   authDomain: "electron-chat-aa434.firebaseapp.com",
   databaseURL: "https://electron-chat-aa434.firebaseio.com",
   projectId: "electron-chat-aa434",
   storageBucket: "electron-chat-aa434.appspot.com",
-  messagingSenderId: "201543838794",
-  appId: "1:201543838794:web:f9f20890f6ab87db7e8ab3",
-  measurementId: "G-5C0BLEL5XS"
+  messagingSenderId: "XXXXXXXXXXXXXXXXXXXXXX",
+  appId: "XXXXXXXXXXXXXXXXXXXXXX",
+  measurementId: "XXXXXXXXXXXXXXXXXXXXXX"
 };
 // Initialize Firebase
 firebase.initializeApp(config);
